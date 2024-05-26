@@ -8,6 +8,12 @@ function App() {
         <header className="App-header">Dictionary App</header>
         <Dictionary />
       </div>
+      <footer>
+        Coded by{" "}
+        <a href="https://github.com/cle-amato/dictionary-app">
+          Clementina Amato
+        </a>
+      </footer>
     </div>
   );
 }
