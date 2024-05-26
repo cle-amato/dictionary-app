@@ -10,7 +10,7 @@ function App() {
       </div>
       <footer>
         Coded by{" "}
-        <a href="https://github.com/cle-amato/dictionary-app">
+        <a href="https://github.com/cle-amato/dictionary-app" target="_blank">
           Clementina Amato
         </a>
       </footer>
