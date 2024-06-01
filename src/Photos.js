@@ -9,11 +9,13 @@ export default function Photos(props) {
           {props.photos.map(function (photo, index) {
             return (
               <div className=" col-6 col-md-4" key={index}>
-                <img
-                  src={photo.src.landscape}
-                  alt={photo.alt}
-                  className="img-fluid"
-                />
+                <a href={photo.url} target="_blank" rel="noreferrer">
+                  <img
+                    src={photo.src.landscape}
+                    alt={photo.alt}
+                    className="img-fluid"
+                  />
+                </a>
               </div>
             );
           })}

@@ -5,12 +5,14 @@ body {
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding-top: 25px;
 }
 
 header {
   font-size: 35px;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 footer {
