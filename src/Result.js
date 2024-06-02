@@ -3,7 +3,7 @@ import Meaning from "./Meaning";
 import "./Result.css";
 
 export default function Result(props) {
-  if (props.result) {
+  if (props.result.word) {
     return (
       <div>
         <section>
@@ -20,6 +20,13 @@ export default function Result(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <section>
+        <p>
+          Sorry, we couldn't find the word you are looking for. Please check
+          your spelling or try another word.
+        </p>
+      </section>
+    );
   }
 }
